@@ -1,6 +1,6 @@
 # URL Shortener 🔗  
 
-Welcome to the **URL Shortener** project! which I developed under Froentend Mentor Project . This web application allows users to easily create short URLs from long web addresses using JSON-based data handling for URL storage and management.  
+Welcome to the **URL Shortener** project! which I developed under Frontend Mentor Project . This web application allows users to easily create short URLs from long web addresses using JSON-based data handling for URL storage and management.  
 
 ## 🌟 Features  
 
