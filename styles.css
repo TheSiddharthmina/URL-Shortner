@@ -1,6 +1,6 @@
-@import 'css/normalize.css';
-@import 'css/layout.css';
-@import 'css/theme.css';
+@import 'normalize.css';
+@import 'layout.css';
+@import 'theme.css';
 
 .btn {
   font-family: var(--font-family-sans-serif);
