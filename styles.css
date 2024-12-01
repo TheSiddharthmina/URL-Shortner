@@ -2,8 +2,6 @@
 @import 'css/layout.css';
 @import 'css/theme.css';
 
-/* #region Common Styles */
-
 .btn {
   font-family: var(--font-family-sans-serif);
   border-radius: 30px;
@@ -42,10 +40,6 @@
 .btn-secondary:focus {
   outline: none;
 }
-
-/* #endregion */
-
-/* #region App Header */
 
 .app-header {
   height: 160px;
@@ -182,10 +176,6 @@
   }
 }
 
-/* #endregion */
-
-/* #region Intro  */
-
 .intro {
   grid-column: 1/4;
 
@@ -242,7 +232,7 @@
   margin-top: 67px;
   padding: 50px;
 
-  background: var(--dark-violet) url(images/bg-shorten-desktop.svg) no-repeat;
+  background: var(--dark-violet) url(bg-shorten-desktop.svg) no-repeat;
   background-size: cover;
   border-radius: 9px;
 }
@@ -300,7 +290,7 @@
   }
 
   .intro .shorten-url-form {
-    background: var(--dark-violet) url(images/bg-shorten-mobile.svg) no-repeat;
+    background: var(--dark-violet) url(bg-shorten-mobile.svg) no-repeat;
     background-position: right top;
     padding: 25px;
   }
@@ -316,10 +306,6 @@
     padding: 16px 40px;
   }
 }
-
-/* #endregion */
-
-/* #region Stats */
 
 .stats {
   grid-column: 1/4;
@@ -479,13 +465,9 @@
   }
 }
 
-/* #endregion */
-
-/* #region Start Now */
-
 .start-now {
   grid-column: 1/4;
-  background: var(--dark-violet) url(images/bg-boost-desktop.svg) 0 0 no-repeat scroll;
+  background: var(--dark-violet) url(bg-boost-desktop.svg) 0 0 no-repeat scroll;
   background-size: cover;
 
   display: flex;
@@ -504,17 +486,13 @@
 
 @media (max-width: 1439px) {
   .start-now {
-    background-image: url(images//bg-boost-mobile.svg);
+    background-image: url(bg-boost-mobile.svg);
   }
 
   .start-now .title {
     font-size: 28px;
   }
 }
-
-/* #endregion */
-
-/* #region App Footer */
 
 .app-footer {
   grid-column: 1/4;
@@ -622,5 +600,3 @@
     grid-column: 1;
   }
 }
-
-/* #endregion */
